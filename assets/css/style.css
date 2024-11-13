@@ -1495,12 +1495,15 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box {
-    border-radius: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
   }
 
   .avatar-box img {
-    width: 150px;
+    width: 200px;
+    height: auto;
   }
 
   .info-content .name {
@@ -2126,7 +2129,6 @@ textarea.form-input::-webkit-resizer {
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: hidden;
     text-overflow: ellipsis;
   }
 
